@@ -1,0 +1,151 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.logo{
+    height: 10vh;
+    
+}
+body
+{
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Outfit', sans-serif;
+    overflow-x: hidden;
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-pintado-acuarela-pastel_23-2148959639.jpg?w=1380);
+    background-position: center;
+    background-size: cover;
+}
+header
+{
+    min-height: 35vh;
+}
+main {
+    min-height: 55vh;
+}
+footer
+{
+    height: 10vh;
+    background-color:rgb(251, 239, 245);
+}
+.navPrincipal{
+    background-color: #00000057;
+}
+#nav a
+{
+    font-size: 27px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.cajabtnes
+{
+    height: 35vh;
+    border: 1px solid #9e9e9e;
+    /* margin-top: 8rem; */
+    background-image: url(https://static.wixstatic.com/media/ca5803_8b77435eb124472b9a65f46f5fc6afaa~mv2.jpg/v1/fill/w_1783,h_700,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ca5803_8b77435eb124472b9a65f46f5fc6afaa~mv2.jpg);
+    background-position: top;
+    background-size: cover;
+}
+.subtitulo
+{
+    color: white;
+    font-size: 40px;
+}
+.searchCheck
+{
+    padding-top: 1rem;
+    color: #d90368;
+}
+.form-check
+{
+    padding-right: 0.5rem;
+}
+
+
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+.card
+{
+    height:26rem;
+    /* border-radius: 10px; */
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    transition: transform 0.5s;
+    padding: 0;
+    
+}
+.imagenCartas{
+    min-height: 14rem;
+    
+    
+}
+.footerCard p
+{
+    margin-bottom: 0;
+}
+.cardDetails
+{
+    height: auto;
+    object-fit: cover;
+}
+.img-thumbnail
+{
+    min-height: 25rem;
+    width: 100%;
+    object-fit: cover;
+}
+.card-title{
+    color: #d90368;
+    font-size: 20px;
+    font-weight: bold;
+}
+.imgError
+{
+    height: 20rem;
+    object-fit: contain;
+}
+.row
+{
+    padding: 0;
+}
+#contenedorCartas .card:hover
+{
+    transform: scale(1.2);
+}
+svg , .txtFoter
+{
+    
+    font-size: 25px;
+    margin-inline: 1rem;
+    
+}
+.txtFoter p , .bi-instagram
+{
+    margin-bottom: 0;
+    color: #d90368;
+}
+.nav-item a:hover
+{
+    color: rgb(253, 253, 253);
+    background-color: #d90368;
+    border-radius: 10px;
+}
+.dropdown-menu{
+    background-color: #0e0b0ec7;
+}
+
+.table th
+{
+    width: 23rem;
+}
+.textArea
+{
+    resize: none;
+    height: 8rem;
+}
