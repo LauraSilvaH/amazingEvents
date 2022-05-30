@@ -103,7 +103,7 @@ function displayCardEventos(datos) {
     }
     else
     {
-        var sinResultados =`<img class= "imgError" src="./img/no-search-found.png" alt="sinResultados">`;
+        var sinResultados =`<img class= "imgError" src="../img/no-search-found.png" alt="sinResultados">`;
         document.querySelector('#contenedorCartas').innerHTML = sinResultados
         console.log(datos);
     }

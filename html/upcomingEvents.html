@@ -4,26 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amazing Events</title>
+    <title>Amazing Events | Upcoming Events</title>
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
-
+    <link rel="stylesheet" href="../css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header class=" ">
         <div class="navPrincipal fixed-top" id="nav">
             <nav class="navbar navbar-expand-lg navbar-light  bg-gradient ">
                 <div class="container-fluid ">
-                <a class="navbar-brand " href="#"><img class="logo" src="./img/logo.png" alt="logo"></a>
+                <a class="navbar-brand " href="#"><img class="logo" src="../img/logo.png" alt="logo"></a>
                 <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item dropdown   ">
                         <a class="nav-link dropdown-toggle" href="upcomingEvents.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -49,29 +48,45 @@
         </div>
         
         <div class="container-fluid cajabtnes d-flex align-items-center justify-content-between">
-          <a class="btn btn-outline-info" href="stats.html">◀</a>  
-          <h1 class="subtitulo">Home</h1>
-          <a class="btn btn-outline-info" href="upcomingEvents.html">▶</a>
+          
+          <a href="index.html" class="btn btn-outline-info">◀</a>
+          <h1 class="subtitulo">Upcoming Events</h1>
+          <a href="pastEvents.html" class="btn btn-outline-info">▶</a>
         </div>
     </header>
     <main class="d-flex flex-column">
-      <div class="searchCheck container d-flex justify-content-between align-items-center flex-wrap-reverse "> 
-      <div class="contenedorCheckbox  d-flex flex-wrap " id="contenedorCheckbox">
-        <!-- CONTENEDOR CHECKBOX -->
+      <div class="searchCheck container d-flex justify-content-between align-items-center flex-wrap-reverse  "> 
+      <div  class="contenedorCheckbox  d-flex flex-wrap " id="contenedorCheckbox">
+        <!-- <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+          <label class="form-check-label" for="inlineCheckbox1">Category1</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+          <label class="form-check-label" for="inlineCheckbox2">Category2</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+          <label class="form-check-label" for="inlineCheckbox2">Category3</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
+          <label class="form-check-label" for="inlineCheckbox2">Category4</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
+          <label class="form-check-label" for="inlineCheckbox2">Category5</label>
+        </div> -->
       </div>
       <div>
         <nav class="navbar navbar-light bg-light">
           <div class="container-fluid">
             <form class="d-flex">
-              <!-- INPUT SEARCH -->
-              <input class="form-control me-2" id="inputSearch" type="text" placeholder="Search" aria-label="Search">
+              <input class="form-control me-2" id="inputSearch" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-info" type="submit">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                   <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
                 </svg>
-                
-
-           
             </button>
             </form>
           </div>
@@ -79,9 +94,8 @@
       </div>
     </div>
     <div class="container">
-
       <div class="row" id="contenedorCartas">
-        <!-- CONTENEDOR CARTAS -->
+        
       </div>
       
     </div>
@@ -103,8 +117,8 @@
       </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <!-- <script src="./amazingEvents.js"></script> -->
-    <script src="./index.js"></script>
+
+    <script src="../js/upcomingEvents.js"></script>
   </body>
 
 </html>
